@@ -16,7 +16,6 @@
 - 🎨 **TailwindCSS** — utility-first styling framework
 - 🧠 **TypeScript** — typed and scalable
 - 🌍 **i18n Support** — multilingual support via `svelte-i18n`
-- 🌗 **Dark/Light Theme** toggle
 - 💬 **SweetAlert2** integration for beautiful alerts
 - 🧱 Clean file/folder structure with layouts & routing
 - ✅ Fully extensible and developer-friendly
