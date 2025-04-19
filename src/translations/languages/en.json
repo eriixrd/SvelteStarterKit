@@ -1,0 +1,35 @@
+{
+  "common": {
+      "language": "Change language",
+      "projectName": "SvelteStarterKit"
+  },
+  "navigation": {
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact"
+  },
+  "hero": {
+      "title": "SvelteStarterKit",
+      "description": "Modern template for quick start with the latest technologies",
+      "copied": {
+          "title": "Copied!",
+          "text": "Git command has been copied to clipboard"
+      },
+      "tech": {
+          "svelte": "Built with the powerful and efficient Svelte framework and SvelteKit meta-framework",
+          "vite": "Lightning-fast development with Vite's next-generation frontend tooling",
+          "tailwind": "Utility-first CSS framework for rapid UI development",
+          "typescript": "Enhanced development experience with type safety",
+          "sweetalert": "Beautiful, responsive, customizable alert dialogs",
+          "i18n": "Built-in internationalization for multiple language support"
+      }
+  },
+  "footer": {
+      "portfolio": "Portfolio",
+      "description": "Copy this git and start making your dreams come true",
+      "contact": "Contact me",
+      "createdBy": "Coded & Designed by · ",
+      "welcome": "All rights reserved.",
+      "github": "GitHub repository"
+  }
+} 

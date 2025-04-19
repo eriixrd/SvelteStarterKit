@@ -1,0 +1,35 @@
+{
+  "common": {
+      "language": "Změnit jazyk",
+      "projectName": "SvelteStarterKit"
+  },
+  "navigation": {
+      "home": "Domů",
+      "about": "O projektu",
+      "contact": "Kontakt"
+  },
+  "hero": {
+      "title": "SvelteStarterKit",
+      "description": "Moderní šablona pro rychlý start s nejnovějšími technologiemi",
+      "copied": {
+          "title": "Zkopírováno!",
+          "text": "Git příkaz byl zkopírován do schránky"
+      },
+      "tech": {
+          "svelte": "Vytvořeno s výkonným a efektivním frameworkem Svelte a meta-frameworkem SvelteKit",
+          "vite": "Bleskurychlý vývoj s next-generation frontend nástrojem Vite",
+          "tailwind": "Utility-first CSS framework pro rychlý vývoj uživatelského rozhraní",
+          "typescript": "Vylepšený vývojářský zážitek s typovou bezpečností",
+          "sweetalert": "Krásné, responzivní a přizpůsobitelné dialogové okna",
+          "i18n": "Vestavěná podpora pro více jazyků"
+      }
+  },
+  "footer": {
+      "portfolio": "Portfolio",
+      "description": "Okopíruj git a běž tvořit své sny v realitu",
+      "contact": "Kontaktujte mě",
+      "createdBy": "Naprogramoval & Navrhl · ",
+      "welcome": "Všechna práva vyhrazena.",
+      "github": "GitHub repozitář"
+  }
+} 
