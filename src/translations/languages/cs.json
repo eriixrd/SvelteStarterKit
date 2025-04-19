@@ -3,11 +3,6 @@
       "language": "Změnit jazyk",
       "projectName": "SvelteStarterKit"
   },
-  "navigation": {
-      "home": "Domů",
-      "about": "O projektu",
-      "contact": "Kontakt"
-  },
   "hero": {
       "title": "SvelteStarterKit",
       "description": "Moderní šablona pro rychlý start s nejnovějšími technologiemi",

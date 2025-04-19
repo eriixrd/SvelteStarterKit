@@ -3,11 +3,6 @@
       "language": "Change language",
       "projectName": "SvelteStarterKit"
   },
-  "navigation": {
-      "home": "Home",
-      "about": "About",
-      "contact": "Contact"
-  },
   "hero": {
       "title": "SvelteStarterKit",
       "description": "Modern template for quick start with the latest technologies",
