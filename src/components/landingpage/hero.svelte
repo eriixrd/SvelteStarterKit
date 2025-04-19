@@ -11,7 +11,7 @@
         { id: 'tailwind', name: 'Tailwind CSS', url: 'https://tailwindcss.com' },
         { id: 'typescript', name: 'TypeScript', url: 'https://www.typescriptlang.org' },
         { id: 'sweetalert', name: 'SweetAlert2', url: 'https://sweetalert2.github.io' },
-        { id: 'i18n', name: 'i18n Support', url: '#' }
+        { id: 'i18n', name: 'Svelte-i18n', url: 'https://github.com/kaisermann/svelte-i18n/' }
     ];
     
     let mounted = false;
