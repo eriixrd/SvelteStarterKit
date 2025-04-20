@@ -6,12 +6,12 @@
     import Swal from 'sweetalert2';
     
     const technologies = [
-        { id: 'svelte', name: 'SvelteKit', url: 'https://svelte.dev' },
-        { id: 'vite', name: 'Vite', url: 'https://vitejs.dev' },
-        { id: 'tailwind', name: 'Tailwind CSS', url: 'https://tailwindcss.com' },
-        { id: 'typescript', name: 'TypeScript', url: 'https://www.typescriptlang.org' },
-        { id: 'sweetalert', name: 'SweetAlert2', url: 'https://sweetalert2.github.io' },
-        { id: 'i18n', name: 'Svelte-i18n', url: 'https://github.com/kaisermann/svelte-i18n/' }
+        { id: 'svelte', name: 'SvelteKit', url: 'https://svelte.dev', src: '/logos/sv.png' },
+        { id: 'vite', name: 'Vite', url: 'https://vitejs.dev', src: '/logos/vite.png' },
+        { id: 'tailwind', name: 'Tailwind CSS', url: 'https://tailwindcss.com', src: '/logos/tw.png' },
+        { id: 'typescript', name: 'TypeScript', url: 'https://www.typescriptlang.org', src: '/logos/ts.png' },
+        { id: 'sweetalert', name: 'SweetAlert2', url: 'https://sweetalert2.github.io', src: '/logos/swa.png' },
+        { id: 'i18n', name: 'i18n Support', url: '#', src: '/logos/i18n.png' }
     ];
     
     let mounted = false;
@@ -96,10 +96,11 @@
                     </Motion>
                     <div class="relative flex h-full flex-col justify-between rounded-xl border border-white/10 px-4 py-4">
                         <div class="flex items-center gap-3">
-                            <div class="flex items-center justify-center w-8 h-8 rounded-full bg-white/5 flex-shrink-0">
-                                <span class="text-base text-white font-bold">{tech.name[0]}</span>
+                            <div class="relative w-7 h-7">
+                                <img src={tech.src} alt="" class="absolute -inset-0 blur-md opacity-50" />
+                                <img src={tech.src} alt={tech.name} class="relative w-full h-full z-10" />
                             </div>
-                            <h3 class="text-lg font-semibold text-neutral-200 line-clamp-1">{tech.name}</h3>
+                            <h3 class="text-lg font-semibold text-neutral-200 line-clamp-1 my-auto">{tech.name}</h3>
                         </div>
                         <p class="text-[14px] leading-relaxed text-neutral-400 line-clamp-3">
                             {$t(`hero.tech.${tech.id}`)}
